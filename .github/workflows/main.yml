@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>DMD</title>
+  </head>
+
+  <style>
+    h1 {
+      color: red;
+      text-align: center;
+      font-size: 45px;
+    }
+
+    body {
+      background-color: lightyellow;
+    }
+    h2 {
+      color: rgba(41, 19, 232, 0.781);
+    }
+  </style>
+
+  <body>
+    <h1>Bài thực hành 1</h1>
+    <h2>Các thành viên trong nhóm</h2>
+    <ul>
+      <li>Họ và tên: Phạm Bình Nghĩa</li>
+      <li>Họ và tên: Đỗ Minh Đức</li>
+      <li>Họ và tên: Trần Đăng Quang Minh</li>
+    </ul>
+    &emsp;
+    <h2>Mục tiêu của nhóm trong năm học này</h2>
+    <ul>
+      <li>Nắm vững kiến thức cơ bản về HTML, CSS</li>
+      <li>Làm chủ kĩ năng sử dụng javascript trong lập trình web</li>
+      <li>Tạo 1 trang web portflio cá nhân</li>
+    </ul>
+    <form action="">
+      <label for="fn" style="font-size: 16px"> Họ:</label> <br />
+      <input type="text" id="fn" name="fn" placeholder="Đỗ" /><br /><br />
+
+      <label for="ln" style="font-size: 16px"> Tên:</label><br />
+
+      <input type="text" id="ln" name="ln" placeholder="Minh Đức" /><br /><br />
+
+      <label for="mail" style="font-size: 16px"> email:</label><br />
+      <input type="Email" id="mail" name="mail" placeholder="dominhduc@gmail.com"><br /><br />
+
+      <input type="checkbox" name="t1" value="HTML" />
+
+      <label for="t1" style="font-size: 16px">K68A2</label><br />
+
+      <input type="checkbox" name="t2" value="HTML" />
+      <label for="t2" style="font-size: 16px"> K68A3 </label><br />
+
+      <input type="checkbox" name="t3" value="HTML" />
+      <label for="t3" style="font-size: 16px">K68A4-5</label> <br /><br />
+      &emsp;&emsp;
+      <input style="font-size: 18px" type="submit" value="submit" />
+    </form>
+    <p>
+      <img
+        src="https://scontent.fhan14-1.fna.fbcdn.net/v/t39.30808-6/334303471_1859263817785053_2231427368912357436_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=a2f6c7&_nc_ohc=3oCX5udySzEAX_QkkOe&_nc_ht=scontent.fhan14-1.fna&_nc_e2o=f&oh=00_AfD-vPCA0f0l9CYzsh8RkYs15KSpRoCFGFOEtO6oVJ3XfA&oe=652AACB9"
+        width="250"
+      />
+    </p>
+    <div>
+      nhấp vào <a href="https://www.facebook.com/toantinhamic"> đây</a> để vào
+      chuyển trang
+    </div>
+  </body>
+</html>
